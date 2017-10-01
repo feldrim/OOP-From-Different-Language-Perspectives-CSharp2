@@ -28,6 +28,15 @@ namespace OOP.Tests
         }
 
         [TestMethod]
+        public void StopTest()
+        {
+            Car.Stop();
+
+            Assert.AreEqual(0, Car.Speed);
+        }
+
+
+        [TestMethod]
         public void InfoAfterTravelling()
         {
             Car.Accelerate(125);
