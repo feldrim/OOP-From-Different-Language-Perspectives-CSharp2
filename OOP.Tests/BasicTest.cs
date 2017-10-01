@@ -23,7 +23,7 @@ namespace OOP.Tests
         }
 
         [TestMethod]
-        public void InfoAfterTravelling()
+        public void GetInfoAfterTravellingTest()
         {
             Car.Accelerate(125);
             Car.Go(100);
