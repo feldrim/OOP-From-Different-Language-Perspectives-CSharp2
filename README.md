@@ -1,7 +1,7 @@
 # OOP From Different Language Perspectives CSharp2
 
 ## TODO:
-[ ] Readme diğer repo ile ibrlikte güncellenecek.
+[ ] Readme diğer repo ile birlikte güncellenecek.
 
 [ ] Java'dan geçişte access modifier değişiklikleri açıklanacak (default modifier farkı).
 
