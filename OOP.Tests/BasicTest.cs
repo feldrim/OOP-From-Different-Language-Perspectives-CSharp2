@@ -34,6 +34,14 @@ namespace OOP.Tests
         }
 
         [TestMethod]
+        public void StopTest()
+        {
+            Car.Stop();
+
+            Assert.AreEqual(0, Car.Speed);
+        }
+
+        [TestMethod]
         public void CarWasherTest()
         {
             Assert.AreEqual(CarWasher.WashCar(Car), "Washing the car: Mercedes C200 of 2017.");
